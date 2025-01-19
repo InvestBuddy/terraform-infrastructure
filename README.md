@@ -80,3 +80,21 @@ The system uses a **microservices architecture**, with each service independentl
 2. Configure **AWS CLI**:
    ```bash
    aws configure
+
+
+
+
+## 📂 Repository Structure
+
+```plaintext
+├── main.tf                # Core Terraform configuration
+├── variables.tf           # Input variables
+├── outputs.tf             # Outputs after provisioning
+├── modules/               # Reusable Terraform modules
+│   ├── ec2/
+│   ├── s3/
+│   ├── rds/
+│   ├── vpc/
+├── .terraform/            # Terraform state directory
+└── README.md              # Documentation
+
