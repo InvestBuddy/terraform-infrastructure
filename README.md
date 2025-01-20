@@ -78,9 +78,9 @@ The system uses a **microservices architecture**, with each service independentl
 ### **Pre-requisites**
 1. Install **Terraform**: [Download Here](https://www.terraform.io/downloads.html)
 2. Configure **AWS CLI**:
-   ```bash
+```
    aws configure
-
+```   
 
 
 
