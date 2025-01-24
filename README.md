@@ -35,6 +35,11 @@ The system uses a **microservices architecture**, with each service independentl
 - **Amazon CloudWatch**: Monitors logs, metrics, and alerts.
 - **Amazon VPC**: Securely isolates the cloud infrastructure.
 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8063165a-3dea-4fef-9085-f7e5d46c76ee" alt="worflow" width="800"/>
+</p>
+
 ---
 
 ## ☁️ AWS Services Used
@@ -81,20 +86,3 @@ The system uses a **microservices architecture**, with each service independentl
 ```
    aws configure
 ```   
-
-
-
-## 📂 Repository Structure
-
-```plaintext
-├── main.tf                # Core Terraform configuration
-├── variables.tf           # Input variables
-├── outputs.tf             # Outputs after provisioning
-├── modules/               # Reusable Terraform modules
-│   ├── ec2/
-│   ├── s3/
-│   ├── rds/
-│   ├── vpc/
-├── .terraform/            # Terraform state directory
-└── README.md              # Documentation
-
